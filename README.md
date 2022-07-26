@@ -32,3 +32,4 @@ Se tomará en cuenta la estructura de la interfaz, para poder mostrar la experie
 
 [Mapbox-gl](https://docs.mapbox.com/help/tutorials/use-mapbox-gl-js-with-react/)
 [Material UI](https://mui.com/)
+

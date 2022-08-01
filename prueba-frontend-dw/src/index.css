@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+header {
+  background-color: black;
+  padding: 10px 20px;
+}
+
+header img {
+  height: 50px;
+}
+
+.flex {
+  display: flex;
+}
+
+.map-div {
+  flex: 20;
+
+}
+
+.map-container {
+  height: 91vh;
+  }
+
+.coord1 {
+  background-color:  rgb(230, 52, 115, 0.5);
+  color: #fff;
+  padding: 6px 12px;
+  z-index: 1;
+  position: absolute;
+  bottom: 3%;
+  margin: 12px;
+  border-radius: 4px;
+  }
+
+.coord2 {
+  background-color:  rgb(230, 52, 115, 0.5);
+  color: #fff;
+  padding: 6px 12px;
+  position: absolute;
+  bottom: 8%;
+  margin: 12px;
+  border-radius: 4px;
+  z-index: 1;
+  }
+
+.icon {
+  color: #fff;
+  padding: 0 3px;
+  z-index: 1;
+  position: relative;
+  margin: 0;
+  border-radius: 0 0 0 0;
+  align-items: center;
+}
+
+.icon button {
+  color: white;
+}
+
+.left {
+  border-radius: 0 8px 8px 0;
+}
+
+.right {
+  border-radius: 8px 0 0 8px;
+}
+
+.left-panel {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  width: 60px;
+  text-align: center;
+}
+
+.right-panel {
+  position: absolute;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  width: 60px;
+  text-align: center;
+}
+
+.right-panel button {
+  color: white;
+  background-color: rgba(230, 52, 115);
+}
+
+.fab-btn {
+  margin: 10px 0;
+}
+
+.fab-btn button{
+  border: 2px solid rgba(230, 52, 115);
+  background-color: white;
+  color: rgba(230, 52, 115);
+}
+
+.navbar {
+  background-color: rgb(0,0,0);
+  color: white;
+  text-align: left;
+  z-index: 1;
+  flex: 1;
+  
+}
+
+.navbar button{
+  color: white;
+}
+
+.nav-menu {
+  width: 250px;
+  z-index: 1;
+}
+
+.nav-menu-items {
+  padding: 20px 20px;
+  text-align:left;
+  vertical-align: bottom;
+  list-style: none;
+  z-index: 1;
+}
+
+.nav-menu-items a{
+  color: white;
+  text-decoration: none;
+}
+
+.nav-menu-items:hover {
+  background-color: rgba(230, 52, 115, .9);
+  border-radius: 10px;
+}
